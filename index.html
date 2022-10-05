@@ -40,19 +40,56 @@
     <main>
         <!--Hero section-->
 <section class="hero">
-    <div class="container">
-        <h1 class="hero-titles">
-        ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
-        </h1>
+        <div class="container">
+            <h1 class="hero-titles">
+            ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
+            </h1>
             <button class="button" data-modal-open type="button">Замовити послугу</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button class="close" data-modal-close>
-                        <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg" class="close-fill"><path d="M11 1.108 9.892 0 5.5 4.392 1.108 0 0 1.108 4.392 5.5 0 9.892 1.108 11 5.5 6.608 9.892 11 11 9.892 6.608 5.5 11 1.108Z"/></svg>
-                </button>
+                        <svg viewBox="0 0 10 10" width="11px" height="11px" class="">
+                            <use href="./images/modal-form-1/close-sprite.svg#icon-close"></use></svg>
+                    </button>
+                    <form class="modal-form" autocomplete="off">
+                        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+                        <div class="form-fild">
+                            <label for="name" class="modal-name">Ім'я</label> 
+                            <input class="modal-text" type="text" name="name" id="name"/>
+                                <svg width="12px" height="12px" class="icon-f">
+                                    <use href="./images//modal-form-1/symbol-defs.svg#icon-Name"></use></svg>
+                        </div>
+                        <div class="form-fild">
+                            <label for="tel" class="modal-name">Телефон</label> 
+                            <input class="modal-text" type="tel" name="name" id="tel"/>
+                            <svg width="13px" height="13px" class="icon-f">
+                                <use href="./images//modal-form-1/symbol-defs.svg#icon-telephone"></use></svg>
+                        </div>
+                        <div class="form-fild">
+                            <label for="mail" class="modal-name">Пошта</label> 
+                            <input class="modal-text" type="email" name="name" id="mail"/>
+                            <svg width="13px" height="13px" class="icon-f">
+                                <use href="./images//modal-form-1/symbol-defs.svg#icon-mail"></use></svg>
+                        </div>
+                        <div class="form-fild">
+                            <label for="coments">Коментар</label> 
+                            <textarea class="modal-coment" name="coments" id="coments" placeholder="Введіть текст"></textarea>
+                        </div>
+
+                        <div class="form-fild">
+                            <label class="lable" for="checkbox-agree">
+                            <input class="checkbox" type="checkbox" name="topic" id="checkbox-agree"/>
+                            <span class="icon-checkbox-agree"></span> 
+                            Погоджуюся з розсилкою та приймаю 
+                            <a href=""><span class="checkbox-agree-contract">Умови договору</span></a>
+                            </label>    
+                        </div>
+                        <button class="checkbox-send" type="submit">Відправити</button>
+                    </form>
                 </div>
             </div>
         </div>
+        
 </section>
 <!--Preference-->
 <section class="preference-sec">
@@ -275,6 +312,19 @@
                 </svg>
                 </a></li> 
             </ul>
+        </div>
+        <div class="container1" contenteditable="line">
+            <form class="subscribe" autocomplete="off"></form>
+            <h2 class="clients-title1">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+            <input class="footer-sub" type="email" name="name" id="mail" placeholder="E-mail"/>
+            
+        </div>
+        <div class="container3">
+            <button class="container2" type="submit">
+                <svg class="telegram-f" width="200px" height="50px">
+                    <use href="/images/footer/telegram-sprite.svg#icon-telegram"></use>
+                </svg>
+            </button>
         </div>
     </div>
     </footer>
