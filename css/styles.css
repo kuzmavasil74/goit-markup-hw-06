@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5, h6, p, ul
     box-sizing: border-box;
     /* outline: 1px solid orangered; */
 }
-
 a {
     text-decoration: none;
 }
@@ -37,7 +36,6 @@ ul {
     padding:0px 15px;
     align-items: center;
 }
-
 /* header */
 .header{
     border: 1px solid #ECECEC;
@@ -52,10 +50,8 @@ ul {
 .header-item:not(:first-child) {
     margin-left: 50px ;
 }
-
 .contacts-wrap {
      margin-left: auto;
-
 }
 .header-container
 {
@@ -66,7 +62,6 @@ ul {
     display: flex;
     display: block;
     margin-right: 93px;
-
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.2;
@@ -84,7 +79,6 @@ ul {
 .nav-buttons {
     display: block;
     padding: 5px;
-
 }
 .logo-studio {
 
@@ -189,7 +183,6 @@ ul {
     color: currentColor;
     display: block;
     margin-left:50px;
-
 }
 .contac{
     display: block;
@@ -211,8 +204,6 @@ ul {
     color: var(--accent-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 .icon-mail{
     width: 16px;
     height: 12px;
@@ -259,7 +250,6 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     background-color: var(--background-color);
     padding-bottom: 200px;
     padding-top: 200px;
@@ -289,8 +279,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding:  10px 32px;
-    border: none;
-    
+    border: none; 
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -316,7 +305,6 @@ ul {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-
     width: 100%;
     margin-bottom: 12px;
     margin-top: 10px;
@@ -328,14 +316,12 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     padding: 40px;
     width: 520px;
     height: 580px;
     background-color: var(--secondary-text-color);
     border-radius: 4px;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .modal:hover,
 .modal:focus{
@@ -513,7 +499,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         width: 12px;
         height: 12px;
 }
-
 /* preference */
 .attention{
     width: 270px;
@@ -559,7 +544,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
      display: block;
      display: flex;
     justify-content: space-around;
-
 }
 .preference-details {
     font-weight: 700;
@@ -610,7 +594,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     color: var(--secondary-text-color);
-
     bottom:0;
     width: 100%;
     height: 70px;
@@ -630,7 +613,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .sociallity{
     width: 44px;
@@ -639,7 +621,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--links-color);
     align-items: center;
 }
-
 .sociallity:not(:last-child){
     margin-right: 10px;
 }
@@ -697,8 +678,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50%;
     background-color: var(--secondary-text-color);
     fill: var(--icon-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 } 
 .team-h:hover,
 .team-h:focus{
@@ -713,7 +693,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .reg-customers{
     padding-bottom: 94px;
     padding-top: 94px;  
-
 }
 .customers1{
     display: flex;
@@ -734,7 +713,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients2{
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   }
 /* footer */
 .adress {
@@ -794,8 +772,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
     color:var(--secondary-text-color);
 }
 .pos-logo{  
@@ -819,7 +796,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--accent-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .logo3{
 fill: var(--secondary-text-color);
@@ -840,8 +816,7 @@ fill: var(--secondary-text-color);
 }
 .categories-contents {
     position: relative;
-    padding: 94px 0px;
-    
+    padding: 94px 0px;   
 }
 .btn {
     border: none;
@@ -857,7 +832,6 @@ fill: var(--secondary-text-color);
     border-radius: 4px;
     padding: 6px 22px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .btn:not(:first-child){
     margin-left: 8px;
@@ -907,10 +881,8 @@ fill: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.88;
    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    
+    color: var(--primary-text-color);  
 }
-
 .botn {
     display: block;
     display: flex;
@@ -920,8 +892,6 @@ fill: var(--secondary-text-color);
     .both:not(:last-child) {
     margin-right: 8px;
     }
-    
-
 .categories-description {
     display: block;
     display: flex;
@@ -931,7 +901,6 @@ fill: var(--secondary-text-color);
     margin: 0px;
     margin-top: 50px;
     flex-basis: calc((100% - 60px) / 3);
-
 }
 .catego {
     display: block;
@@ -942,7 +911,6 @@ fill: var(--secondary-text-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .cat-des {
-
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
@@ -961,14 +929,12 @@ fill: var(--secondary-text-color);
     opacity: 0;
     pointer-events: none;
     visibility:hidden;
-
 }
 .no-scrool{
     overflow: hidden;
 }
 .icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 /* footer-sub */
 .footer-sub{
@@ -982,7 +948,6 @@ fill: var(--secondary-text-color);
     border-radius: 4px;
     background: var(--background-color);
     transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 .container2{
     display: block;
